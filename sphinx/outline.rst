@@ -25,13 +25,14 @@ Schedule (tentative)
 
   - *For Monday, January 5:* Sections 1.0--2.3.
   - *For Wednesday, January 7:* Sections 2.4-2.13, 3.0-3.9.
-  - :ref:`lab1`.
-
+  - :ref:`lab1`.  Also please complete 
+    `this survey <https://catalyst.uw.edu/webq/survey/rjl/257053>`_ 
+    on your background before Friday.
 
 - **Week 2:** Finite Volume methods, Godunov's method for advection and linear systems 
 
-  - **For Monday, January 12:** Sections 3.9-3.11, 4.0-4.9
-  - **For Wednesday, January 14:** Sections 4.10-4.13
+  - *For Monday, January 12:* Sections 3.9-3.11, 4.0-4.9.
+  - *For Wednesday, January 14:* Sections 4.10-4.13.
 
 - **Week 3:** High resolution methods, limiters
 - **Week 4:** Scalar nonlinear problems
