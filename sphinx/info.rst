@@ -25,6 +25,12 @@ Class meeting times
   where we will work on computing projects.)
 
 
+Discussion board
+----------------
+
+Registered students should be able to access the `Piazza discussion board 
+<https://piazza.com/class/i4iq2zhewm74u9>`_.
+
 Grading
 -------
 
