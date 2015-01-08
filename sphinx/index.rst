@@ -40,6 +40,7 @@ See also :ref:`toc_condensed`
 
    computing_options
    software_installation
+   class_repos
    smc
    vm
 

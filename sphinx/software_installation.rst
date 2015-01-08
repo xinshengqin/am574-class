@@ -33,6 +33,7 @@ to tutorials, etc.
 The `Clawpack Developers' Guide <http://www.clawpack.org/developers.html>`_
 has some information about our standard development procedure with Git.
 
+See :ref:`class_repos` for information on cloning the class repository.
 
 .. _install_clawpack:
 
