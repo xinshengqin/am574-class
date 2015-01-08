@@ -9,6 +9,7 @@ Homework 1
 
 Due by pushing to your GitHub repository 
 by 11:00pm on January 16, 2015.
+(Instructions for doing this will be posted soon.)
 
 - `hw1.pdf <_static/hw1.pdf>`_
 
@@ -19,3 +20,5 @@ by 11:00pm on January 16, 2015.
   `hw1.tex`, which includes commented-out sections where you can insert
   solutions.  This can be found in the class repository (see
   :ref:`class_repos`).
+
+
