@@ -7,9 +7,12 @@ Homework 1
 =============================================================
 
 
-Due by pushing to your GitHub repository 
-by 11:00pm on January 16, 2015.
-(Instructions for doing this will be posted soon.)
+Due by 11:00pm on January 16, 2015.
+
+**Note:** Submit a pdf file via the Canvas assignment page
+`Homework 1 <https://canvas.uw.edu/courses/944870/assignments/2734617>`_.
+
+We will **not** use GitHub for submission of this assignment.
 
 - `hw1.pdf <_static/hw1.pdf>`_
 
