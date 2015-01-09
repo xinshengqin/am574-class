@@ -27,6 +27,34 @@ particular you could create a ...
   typesetting program latex, which is widely used for scientific writing,
   particularly in the mathematical sciences.
 
+  You can open an existing latex file in this editor via::
+
+      open filename.tex
+
+
+Making a plot via a Python script
+---------------------------------
+
+If you try to run a script that creates plots on SMC, you may get an error
+saying that `... no $DISPLAY environment variable`.  The default 
+`matplotlib backend
+<http://matplotlib.org/faq/usage_faq.html#what-is-a-backend>`_
+seems to be set to `TKAgg`, which is an interactive backend that doesn't
+work from scripts.  
+
+There are two ways to fix this.  In the script, do this before any
+other statements that import `matplotlib` or `pylab`::
+
+    import matplotlib
+    matplotlib.use('Agg')
+
+This should make the script run.  To avoid having to do this for each script
+separately, create a file `~/.config/matplotlib/matplotlibrc` containing::
+
+    backend : Agg
+
+which should set the default for all uses of `matplotlib`.
+
 Making a plot in IPython
 -------------------------
 
