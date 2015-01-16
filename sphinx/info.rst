@@ -13,7 +13,7 @@ Instructor
 
   * Office: Lewis 328 
   * netid for email: rjl
-  * Office hours: TBA
+  * Office hours: Tuesday 3-4,  Wednesday 11-12, Thursday 11-12
 
 
 Class meeting times

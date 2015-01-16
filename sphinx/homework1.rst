@@ -7,7 +7,7 @@ Homework 1
 =============================================================
 
 
-Due by 11:00pm on January 16, 2015.
+Due by 11:00pm on January 15, 2015.
 
 **Note:** Submit a pdf file via the Canvas assignment page
 `Homework 1 <https://canvas.uw.edu/courses/944870/assignments/2734617>`_.

@@ -4,6 +4,9 @@
 Lab 1: Friday, Jan. 9, 2015
 =============================
 
+- `Video from the lab presentation 
+  <https://panopto.uw.edu/Panopto/Pages/Viewer.aspx?id=227c2b8f-126d-d21f-d5db-8a59b90a4293>`_.
+
 
 - Read the section :ref:`software_installation`, and try
   installing the necessary software, in particular Git and the Python

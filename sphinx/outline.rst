@@ -32,9 +32,14 @@ Schedule (tentative)
 - **Week 2:** Finite Volume methods, Godunov's method for advection and linear systems 
 
   - *For Monday, January 12:* Sections 3.9-3.11, 4.0-4.9.
-  - *For Wednesday, January 14:* Sections 4.10-4.13.
+  - *For Wednesday, January 14:* Sections 4.10-4.14, 6.0-6.1.
+  - :ref:`lab2`. 
 
 - **Week 3:** High resolution methods, limiters
+
+  - *Monday, January 19:* Martin Luther King Day -- no class.
+  - *For Wednesday, January 21:* Sections 6.4 - 6.17.
+
 - **Week 4:** Scalar nonlinear problems
 - **Week 5:** Nonlinear systems, Riemann solutions
 - **Week 6:** Approximate Riemann solvers
