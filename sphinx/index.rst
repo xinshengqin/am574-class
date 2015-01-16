@@ -43,6 +43,7 @@ See also :ref:`toc_condensed`
    class_repos
    smc
    vm
+   python
 
 .. toctree::
    :maxdepth: 2

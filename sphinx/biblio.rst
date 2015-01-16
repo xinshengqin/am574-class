@@ -27,8 +27,7 @@ Hyperbolic problems and finite volume methods
 Python
 ------
 
-.. [Dive-into-Python] M. Pilgram, `Dive Into Python,
-   <http://www.diveintopython.org/>`_.
+See also :ref:`python`
 
 .. [Python] G. van Rossum, `An Introduction to Python,
    <http://www.network-theory.co.uk/docs/pytut/index.html>`_
