@@ -31,6 +31,12 @@ Discussion board
 Registered students should be able to access the `Piazza discussion board 
 <https://piazza.com/class/i4iq2zhewm74u9>`_.
 
+Canvas page
+-----------
+
+Registered students can view grades and other materials 
+on the `Canvas page <https://canvas.uw.edu/courses/944870>`_
+
 Grading
 -------
 
