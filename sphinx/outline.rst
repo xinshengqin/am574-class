@@ -17,6 +17,7 @@ questions you have about the material.
 There will also be assignments related to the Friday lab sessions, see
 :ref:`labs`, or the links below.
 
+See :ref:`homeworks` for Homework schedule and assignments.
 
 Schedule (tentative)
 ---------------------

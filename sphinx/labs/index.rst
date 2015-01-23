@@ -9,4 +9,5 @@ Material to accompany lab sessions
 
    lab1
    lab2
+   lab3
 

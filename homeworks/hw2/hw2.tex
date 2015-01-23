@@ -1,0 +1,213 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+
+\usepackage{hyperref}  % for urls and hyperlinks
+
+
+\setlength{\textwidth}{6.2in}
+\setlength{\oddsidemargin}{0.3in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textheight}{8.9in}
+\setlength{\voffset}{-1in}
+\setlength{\headsep}{26pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+
+% input some useful macros from RJLmacros.tex:
+\input{../hw1/RJLmacros}
+
+\begin{document}
+
+\hfill\vbox{\hbox{AMath 574}\hbox{Homework 2}
+\hbox{Due by 11:00pm on January 29, 2015}}
+
+For submission instructions, see:
+
+\url{http://faculty.washington.edu/rjl/classes/am574w2015/homework2.html}
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem \#4.1 in the book}
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem \#4.2 in the book}
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem \#6.1 in the book}
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem \#6.2 in the book}
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem \#6.3 in the book}
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+
+\vskip 1cm
+\hrule
+{\bf Problem \#6.4 in the book}
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+%--------------------------------------------------------------------------
+
+\vskip 1cm
+\hrule
+{\bf Problem \#6.5 in the book}
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem \#6.6 in the book}
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+
+\vskip 1cm
+\hrule
+{\bf Additional Problem:}
+
+Show that the flux-limiter method (6.40),(6.41) can be written as a {\em
+wave limiter} method as:
+
+\[
+Q_i^{n+1} = Q_i^n - \dtdx (\bar u^+ \W_{i-1/2}  + \bar u^- \W_{i+1/2})
+-\dtdx (\widetilde F_{i+1/2} - \widetilde F_{i-1/2}),
+\]
+where $\W_{i-1/2} = Q_i^n - Q_{i-1}^n$ and the ``correction flux'' is
+\[
+\widetilde F_{i-1/2} = \half |\bar u| 
+\left(1 - \dtdx |\bar u|\right) \widetilde \W_{i-1/2},
+\]
+with the limited waves $\widetilde \W$ defined by
+\[
+\widetilde \W_{i-1/2} = \phi(\theta_{i-1/2}) \W_{i-1/2}.
+\]
+The ratio $\theta_{i-1/2}$ is defined in (6.35) and the
+function $\phi$ might be one of limiters from (6.39).
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\newpage
+
+\vskip 1cm
+\hrule
+{\bf Programming problem}
+
+Modify the IPython notebook \verb+$AM574/labs/lab2/AdvectionTests.ipynb+
+to create a new notebook \verb+AdvectionLimiters.ipynb+ that illustrates
+your solutions to the following:
+
+\renewcommand{\theenumi}{\alph{enumi}}  % use letters for enumeration
+\begin{enumerate}
+\item Modify the upwind code to use two ghost cells on each side rather than
+one.  Check that this gives identical results to the original code for cases
+when the time {\tt tfinal} is large enough that the periodic boundary
+conditions play a role.  Include at least one of these tests in the notebook.
+Note that the method implemented in the next part will require two ghost cells.
+
+\item Implement the wave limiter methods for advection, as described in 
+the previous problem.   Note that it's impossible to use half-integer
+indices, so you might want to declare arrays such as \verb+Ftilde+ in which 
+\verb+Ftilde[i]+ holds the correction flux $\widetilde F_{i-1/2}$.  (This is
+the convention used in Clawpack --- the index $i$ often refers to
+information at the left edge of the cell $x_{i-1/2}$.)
+
+Copy the \verb+upwind+ function definition to a new cell in the notebook and
+modify it to create a new function \verb+wave_limiter+ that has one
+additional argument \verb+phi+ in the calling sequence, so that a limiter
+function $\phi(\theta)$ can be passed in.  The function $\phi$ might be one
+of those listed in (6.39a,b) in the book.  
+
+For example:
+\begin{verbatim}
+    def phi_minmod(theta):
+        return(max(0., min(theta,1)))
+\end{verbatim}
+would define the minmax limiter, and then
+\begin{verbatim}
+    q = wave_limiter(ubar,q0,x,tfinal,nsteps,phi_minmod)
+\end{verbatim}
+should solve the problem using the minmod wave-limiter method.
+
+\item Test your function by reproducing
+Figures 6.2 and 6.3 from the book in your notebook.
+
+\end{enumerate} 
+
+Submit your notebook \verb+AdvectionLimiters.ipynb+.
+
+\end{document}
+
