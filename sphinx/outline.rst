@@ -40,9 +40,18 @@ Schedule (tentative)
 
   - *Monday, January 19:* Martin Luther King Day -- no class.
   - *For Wednesday, January 21:* Sections 6.4 - 6.17.
+  - :ref:`lab3`. 
 
 - **Week 4:** Scalar nonlinear problems
+
+  - *For Monday, January 26:* Sections 11.0 - 11.7.
+  - *For Wednesday, January 28:* Sections 11.8 - 11.15, 12.1 - 12.9.
+  - :ref:`lab4`. 
+
 - **Week 5:** Nonlinear systems, Riemann solutions
+
+  - *For Monday, February 2:* Sections 13.0 - 13.7.
+
 - **Week 6:** Approximate Riemann solvers
 - **Week 7:** Nonconservative problems, source terms
 - **Week 8:** Two-dimensional hyperbolic problems
