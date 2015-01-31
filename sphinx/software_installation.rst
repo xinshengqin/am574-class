@@ -124,11 +124,26 @@ then you should be able to open the file `_plots/_PlotIndex.html` in a web
 browser and view the results.
 
 To test if IPython notebooks are working properly, try the following
-example.  It has not yet been merged into the master branch of the `apps`
+example.  
+
+**Note:** The notebook below uses some modifications that are not in the
+latest release of Clawpack but are in the *master* branch. 
+You should be able to do this to get what's needed::
+
+    cd $CLAW/clawutil
+    git checkout master
+    git pull  # will probably say it's up to date if you cloned recently
+
+    cd $CLAW/visclaw
+    git checkout master
+    git pull  # will probably say it's up to date if you cloned recently
+
+The notebook below has not yet been merged into the master branch of the `apps`
 repository, so you'll have to check out a different branch::
 
     cd $CLAW/apps
     git checkout notebook_experiments  
+
     cd $CLAW/apps/notebooks/classic/advection_1d
     ipython notebook advection_1d.ipynb
 
