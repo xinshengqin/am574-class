@@ -26,7 +26,8 @@ Schedule (tentative)
 * Homework 3:  due Thursday, Feb. 12
 * Midterm: Friday, Feb. 20
 * Homework 4:  due Thursday, Feb. 26
-* Project presentations: Saturday, March 14
+* Project presentations: Thursday and Friday, March 12-13
+* Project paper due: Friday, March 13
 
 Midterm
 -------

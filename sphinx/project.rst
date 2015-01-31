@@ -6,7 +6,7 @@ Course Projects
 
 Students should work in groups of 2 (possibly 3, but 2 is best) 
 to tackle a project related to the topics of this course.
-See :ref:`projects_topics`.
+See :ref:`project_topics`.
 
 
 I suggest working with someone who has a different background than your own
@@ -53,7 +53,7 @@ Timeline (tentative)
 - Wednesday, Feb 18: 1-page project proposals due
 - Wednesday, March 4: first draft of papers due
 - Friday, March 13: final papers due
-- Saturday, March 14: project presentations
+- Thursday and Friday, March 12-13: project presentations
 
 
 .. _paper:
@@ -112,14 +112,26 @@ Some examples:
   `ebook <http://epubs.siam.org/doi/book/10.1137/1.9780898719550>`_ 
   from SIAM.
 
+You are also welcome to write one or more IPython notebooks to discuss the
+problem and illustrate results.  In fact the writeup could be presented as a
+notebook if this makes most sense.  If you want to try this, you might get
+some ideas from...
+
+- `Gallery of interesting notebooks
+  <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`_
+- `Managing citations
+  <http://nbviewer.ipython.org/github/HHammond/nbconvert-examples/blob/master/citations/Tutorial.ipynb>`_
+
+
 .. _presentation:
 
 Presentations
 -------------------------
 
-The date of time of presentations to be determined.
-
-Presentations should be 15-20 minutes long.  
+Presentations should be 15-20 minutes long.   The current plan is to have
+two times for presentations, Thursday and Friday March 12, 13 from 3:30 -
+5:30 each day.  Students are expected to attend at least one and preferably
+both sessions.
 
 Try to structure the presentation so that it can be given jointly by the
 group, e.g. each person talking about some aspect of the project.
@@ -129,11 +141,7 @@ the presentation.  It might be best to cover the most interesting aspect or
 two in enough detail that everyone can follow and learn something new and
 interesting from the talk, and then summarize other things you looked at.
 
-
-
-.. _projects_topics:
-
 Possible topics
 ---------------
 
-- To appear.
+See :ref:`project_topics`.

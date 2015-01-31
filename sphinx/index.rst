@@ -29,6 +29,7 @@ See also :ref:`toc_condensed`
    :maxdepth: 2
 
    homeworks
+   project
 
 .. toctree::
    :maxdepth: 1
