@@ -114,11 +114,17 @@ in --- you do not need to pick something from this list.
   nutrient. This is an advection-reaction-diffusion equation and might
   involve using a fractional step approach,  e.g. 
 
-  - `http://faculty.washington.edu/rjl/pubs/chemotaxis/index.html>`_
+  - `<http://faculty.washington.edu/rjl/pubs/chemotaxis/index.html>`_
 
 - The kitchen sink -- Figure 13.3 shows a "cartoon" of a stationary radial
   shock wave in the shallow water equations.  Properly solve this problem with
   radially symmetric 1d and/or full 2d equations.
   
-  
+- Moving mesh methods in one space dimension:  In one dimension it is
+  possible to define a fairly simple moving mesh method that can be used
+  to study a contracting domain modeling a piston moving into a shock tube.
+  This is described in the following paper.  The code that was used still
+  exists but was written for an old verion of Clawpack (4.3) and might be
+  interesting and useful to update this to Clawpack 5 form.
 
+  - `<http://faculty.washington.edu/rjl/pubs/rf-rjl-mmm/index.html>`_
