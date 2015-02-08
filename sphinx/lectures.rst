@@ -6,7 +6,7 @@ Lectures and slides
 
 Slides from the 2011 version of AMath 574 are available 
 `here
-<http://faculty.washington.edu/rjl/classes/hyperbolic2013/am574w2011/index.html>`_.
+<http://faculty.washington.edu/rjl/classes/am574w2011/lectures/>`_.
 The material is being covered in a different order this year and lectures
 will be primarily on the board, but some of these slides may be useful 
 for studying the material.
