@@ -24,6 +24,7 @@ See also :ref:`toc_condensed`
 
    info
    outline
+   lectures
 
 .. toctree::
    :maxdepth: 2
