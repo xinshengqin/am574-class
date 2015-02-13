@@ -48,12 +48,23 @@ Schedule (tentative)
   - *For Wednesday, January 28:* Sections 11.8 - 11.15, 12.1 - 12.9.
   - :ref:`lab4`. 
 
-- **Week 5:** Nonlinear systems, Riemann solutions
+- **Week 5:** Nonlinear problems, Riemann solutions
 
-  - *For Monday, February 2:* Sections 13.0 - 13.7.
+  - *For Monday, February 2:* Continue scalar nonlinear
+  - *For Wednesday, February 4:* Sections 13.0 - 13.7.
+  - :ref:`lab5`. 
 
-- **Week 6:** Approximate Riemann solvers
-- **Week 7:** Nonconservative problems, source terms
+- **Week 6:** Nonlinear systems, finite volume methods
+
+  - *For Monday, February 9:* See :ref:`lectures`
+  - *For Wednesday, February 11:* Sections 15.1, 12.0 - 12.8.
+  - Lab 6: Groups and projects
+
+- **Week 7:** Approximate Riemann solvers, gas dynamics
+
+  - *Monday, February 9:* No class
+  - *For Wednesday, February 18:* Sections 15.3 - 15.4, Chapter 14
+
 - **Week 8:** Two-dimensional hyperbolic problems
 - **Week 9:** Two-dimensional algorithms, mapped grids
 - **Week 10:** Adaptive mesh refinement

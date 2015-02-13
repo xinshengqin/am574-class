@@ -24,18 +24,18 @@ Schedule (tentative)
 * :ref:`homework1`: due Thursday, Jan. 15
 * :ref:`homework2`: due Thursday, Jan. 29
 * :ref:`homework3`: due Thursday, Feb. 12
-* Midterm: Friday, Feb. 20
 * Homework 4:  due Thursday, Feb. 26
-* Project presentations: Thursday and Friday, March 12-13
+* Midterm: Friday, Feb. 27
+* Project presentations: Wednesday and Friday, March 11, 13
 * Project paper due: Friday, March 13
 
 Midterm
 -------
 
-There will be a midterm exam, tentatively scheduled for February 20.  The
-exam will be open book, open notes, open computer.  The goal will be to
-insure that you are proficient with some of the theory presented in the
-course and with some aspects of computing.
+There will be a midterm exam, tentatively scheduled for February 27.  
+The exam will be open book, open notes.  The goal will be to
+insure that you are proficient with some of the theory and algorithms
+presented in the course.
 
 Course Project
 --------------

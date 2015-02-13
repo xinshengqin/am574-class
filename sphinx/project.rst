@@ -53,7 +53,7 @@ Timeline (tentative)
 - Wednesday, Feb 18: 1-page project proposals due
 - Wednesday, March 4: first draft of papers due
 - Friday, March 13: final papers due
-- Thursday and Friday, March 12-13: project presentations
+- Wednesday and Friday, March 11, 13: project presentations
 
 
 .. _paper:
@@ -141,7 +141,5 @@ the presentation.  It might be best to cover the most interesting aspect or
 two in enough detail that everyone can follow and learn something new and
 interesting from the talk, and then summarize other things you looked at.
 
-Possible topics
----------------
-
+**Possible topics:**
 See :ref:`project_topics`.
