@@ -1,0 +1,190 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+
+\usepackage{hyperref}  % for urls and hyperlinks
+
+
+\setlength{\textwidth}{6.2in}
+\setlength{\oddsidemargin}{0.3in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textheight}{8.9in}
+\setlength{\voffset}{-1in}
+\setlength{\headsep}{26pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+
+% input some useful macros from RJLmacros.tex:
+\input{../hw1/RJLmacros}
+
+\begin{document}
+
+\hfill\vbox{\hbox{AMath 574}\hbox{Homework 4}
+\hbox{Due by 11:00pm on February 26, 2015}}
+
+For submission instructions, see:
+
+\url{http://faculty.washington.edu/rjl/classes/am574w2015/homework4.html}
+
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 1.}
+
+Consider the scalar conservation law $q_t + f(q)_x = 0$ with $f(q) =
+\sqrt{q}$, which is convex as long as we only consider states $q > 0$.
+
+{\bf 1(a).} Consider this problem with data
+
+\begin{equation}\label{ic1}
+q(x,0) = \bpwdef 4 \when 0 < x < 1,\\
+                 1 \otherwise. \epwdef
+\end{equation}
+
+Determine the time $t_s$ when the shock and rarefaction wave first begin to
+interact and the solution $q(x,t_s)$.
+
+{\bf 1(b).} Use Clawpack to verify your solution.  Set up a problem similar
+to what you did on the Programming problem of Homework \#3.  Choose the
+domain, mesh size, and limiter to illustrate the solution in a convincing
+manner.  Save the code required in a directory \verb+hw4/sqrtflux+ and add
+a file \verb+README.txt+ with any instructions or comments on the solution.
+
+{\bf 1(c).} Repeat parts (a) and (b) for the initial data
+
+\begin{equation}\label{ic2}
+q(x,0) = \bpwdef 4 \when 0 < x < 1,\\
+                 0.01 \otherwise. \epwdef
+\end{equation}
+
+For the programming part, also do the following:
+
+\begin{itemize}
+\item Set \verb+clawdata.verbosity = 1+ in \verb+setrun.py+ so that it
+prints out information every time step about the size of the time step.
+Comment on what you observe relative to a similar experiment with the
+initial data \eqn{ic1}.
+
+\item Try using the Lax-Wendroff method (no limiter) for this problem and
+comment on what happens, relative to a similar experiment with the
+initial data \eqn{ic1}.
+\end{itemize}
+
+If the results to the second part are mysterious, here are some hints:
+
+\begin{itemize}
+\item You might check the file \verb+_output/fort.q0001+ to see 
+what the values the solution takes.
+\item In \verb+setrun.py+ if you set \verb+clawdata.output_style = 1+, you
+can have it output results every time step for a certain number of steps.
+\item Fortran does not always trap arithmetic exceptions unless you tell it
+to, for example by setting \\
+\verb+  FFLAGS =  -ffpe-trap=invalid,overflow,zero+\\
+in the Makefile and then doing \verb+make new+ to recompile everything.
+(These flags are for \verb+gfortran+.) 
+
+See \url{http://www.clawpack.org/fortran_compilers.html} for some other
+useful debugging flags.
+\end{itemize} 
+
+You do not need to check in code for Problem 1(c), but include some
+discussion in your written solutions about what you observe, including
+figures if you'd like.
+
+
+Make sure you have committed any files to your repository that are
+needed to run your code and produce the plots.
+You do {\bf not} need to commit the output files or plots, or the files
+produced by compiling the fortran code (\verb+*.o, xclaw+).
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 2.}
+
+Consider the linear system $q_t + Aq_x = 0$ with 
+\[
+A = \brm -1 & 1\\ 0 & 2\erm.
+\]
+
+{\bf 2(a).} Determine the eigenvalues and eigenvectors of $A$ and sketch the
+integral curves of the eigenvectors in the phase plane.
+(And recall that for a linear system these are also the Hugoniot loci.)
+
+{\bf 2(b).} Consider the Cauchy problem for this system (no boundaries) with
+initial data
+\[
+q(x,0) = \bpwdef ~[4,4]^T &\text{if}~~ x < 1,\\
+                 ~[1,1]^T &\text{if}~~ 1 \leq x \leq 3,\\
+                 ~[2,1]^T &\text{if}~~ x > 3.\epwdef
+\]
+
+{\bf 2(c).} Set up a Clawpack Riemann solver for this problem and use the
+initial condition above as a test of your code.  
+(You might want to use the code in
+\verb+$CLAW/classic/examples/acoustics_1d_example1+ as a model for a linear 
+system of two equations.)
+Solve it over a large
+enough domain to see all the states you expect to see in the exact solution,
+and use extrapolation boundary conditions.   
+
+Include some plots from your solution in your writeup.
+
+Commit the files needed to produce these plots, in a directory
+\verb+hw4/linsys+.
+
+Please make sure comments in the code (and labels on plots) 
+are relevant to the problem being solved and clean up things not needed for
+this code (e.g. parts of the acoustics code dealing with the physical
+parameters that are not relevant to this problem).
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 13.11 in the book, parts (a)-(c).}
+
+Also think about how the Riemann solution looks in the phase plane ($q$--$u$
+plane in this case) and think
+about part (d) in this context.  You don't need to turn in anything, but try
+to understand the phase plane for this problem.
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+%--------------------------------------------------------------------------
+\vskip 1cm
+\hrule
+{\bf Problem 15.2 in the book.}
+
+
+% uncomment the next two lines if you want to insert solution...
+%\vskip 1cm
+%{\bf Solution:}
+
+% insert your solution here!
+
+
+\end{document}
+
+

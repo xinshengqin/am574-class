@@ -24,7 +24,7 @@ Schedule (tentative)
 * :ref:`homework1`: due Thursday, Jan. 15
 * :ref:`homework2`: due Thursday, Jan. 29
 * :ref:`homework3`: due Thursday, Feb. 12
-* Homework 4:  due Thursday, Feb. 26
+* :ref:`homework4`: due Thursday, Feb. 26
 * Midterm: Friday, Feb. 27
 * Project presentations: Wednesday and Friday, March 11, 13
 * Project paper due: Friday, March 13
