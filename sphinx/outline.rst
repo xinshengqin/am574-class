@@ -64,6 +64,7 @@ Schedule (tentative)
 
   - *Monday, February 9:* No class
   - *For Wednesday, February 18:* Sections 15.3 - 15.4, Chapter 14
+  - :ref:`lab7`.
 
 - **Week 8:** Two-dimensional hyperbolic problems
 - **Week 9:** Two-dimensional algorithms, mapped grids
