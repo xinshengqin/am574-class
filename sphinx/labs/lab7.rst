@@ -4,7 +4,11 @@
 Lab 7: Friday, Feb. 20, 2015
 =============================
 
-Some review topics for the midterm can be found at :ref:`midterm`.
+- Next week: No lecture on Wednesday, Midterm on Friday Feb 27.
+
+- Office hours next week: M 1-2, T 3-4, W 11-12.
+
+- Some review topics for the midterm can be found at :ref:`midterm`.
 
 The IPython notebook 
 `$CLAW/apps/notebooks/riemann/shallow/ShallowWaterRiemannProblem.ipynb`
