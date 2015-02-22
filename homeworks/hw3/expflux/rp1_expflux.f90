@@ -32,11 +32,11 @@ subroutine rp1(maxmx,meqn,mwaves,maux,mbc,mx,ql,qr,auxl,auxr,wave,s,amdq,apdq)
             s(1,i) = exp(qr(1,i-1))
           endif
 
-        # Note that we know the speed s is always positive:
+        ! Note that we know the speed s is always positive:
         amdq(1,i) = 0.d0
         apdq(1,i) = s(1,i) * wave(1,1,i)
 
-        # There cannot be transonic rarefactions, so no entropy fix needed
+        ! There cannot be transonic rarefactions, so no entropy fix needed
 
     enddo
 

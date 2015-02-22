@@ -20,6 +20,12 @@ minumum, this subdirectory should contain:
 - A subdirectory `hw3/expflux` containing the code required for the
   programming portion.
 
-More details to appear....
+**Solutions**
+
+Sample solutions to the programming part can now be found in
+`$AM574/homeworks/hw3/expflux`, including a notebook.  
+
+`View the notebook
+<http://nbviewer.ipython.org/url/faculty.washington.edu/rjl/classes/am574w2015/_static/ExpFlux.ipynb>`_
 
 
