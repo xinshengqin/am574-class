@@ -28,5 +28,9 @@ Recorded lectures
   <http://nbviewer.ipython.org/gist/rjleveque/8994740>`_, but to change the
   data and re-execute cells, you will need to be running the notebook.
 
-- Video to appear.
+- Videos:
+  
+  - `Part 1 <https://panopto.uw.edu/Panopto/Pages/Viewer.aspx?id=1cd51179-f538-97df-63b1-4bb688692b48>`_
+
+  - `Part 2 <https://panopto.uw.edu/Panopto/Pages/Viewer.aspx?id=bce3a5ab-89b9-d5f8-fff8-2e90252f7f06>`_
 
