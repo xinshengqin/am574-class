@@ -30,7 +30,27 @@ Recorded lectures
 
 - Videos:
   
-  - `Part 1 <https://panopto.uw.edu/Panopto/Pages/Viewer.aspx?id=1cd51179-f538-97df-63b1-4bb688692b48>`_
+  - `Part 1
+    <https://panopto.uw.edu/Panopto/Pages/Viewer.aspx?id=1cd51179-f538-97df-63b1-4bb688692b48>`_
+    -- Lecture 16 (26 minutes)
 
   - `Part 2 <https://panopto.uw.edu/Panopto/Pages/Viewer.aspx?id=bce3a5ab-89b9-d5f8-fff8-2e90252f7f06>`_
+    -- Lecture 17 (40 minutes)
+
+**For February 25, 2015** 
+
+- This lecture uses the 
+  `2011 slides <http://faculty.washington.edu/rjl/classes/hyperbolic2013/am574w2011/index.html>`_ 
+  for Lecture 15, starting on Slide 21
+
+- Videos:
+
+  - `Part 1
+    <https://panopto.uw.edu/Panopto/Pages/Viewer.aspx?id=6e2fb6b6-dbfc-57c8-d629-26e87dd518d3>`_
+    -- Discussion of entropy functions (17 minutes)
+
+  - `Part 2
+    <https://panopto.uw.edu/Panopto/Pages/Viewer.aspx?id=f1b9fad8-54e5-0cc5-7111-0d798a0d950f>`_  
+    -- Discussion of Lax-Wendroff Theorem (21 minutes)
+
 
