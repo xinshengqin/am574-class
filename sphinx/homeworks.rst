@@ -35,7 +35,7 @@ Midterm
 There will be a midterm exam, tentatively scheduled for February 27.  
 The exam will be open book, open notes.  The goal will be to
 insure that you are proficient with some of the theory and algorithms
-presented in the course.
+presented in the course.  See :ref:`midterm` for some topics to review.
 
 Course Project
 --------------
