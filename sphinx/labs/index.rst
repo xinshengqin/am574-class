@@ -14,4 +14,5 @@ Material to accompany lab sessions
    lab5
    lab7
    lab8
+   lab9
 
